@@ -48,7 +48,7 @@ class BrowserService {
             BrowserService.browser = await puppeteer.launch({
              //   devtools: devtool,
                 headless: headless ? true : false, 
-                executablePath: process.env.CHROME_PATH,
+                executablePath: process.env.CHROME_PATH || path.resolve('C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'),
                 userDataDir, 
                 ignoreDefaultArgs: ['--disable-extensions', '--enable-automation'],
                 args: [
@@ -105,7 +105,7 @@ class BrowserService {
             BrowserService.browser = await puppeteer.launch({
                 devtools: devtool,
                 headless: headless,
-                executablePath: process.env.CHROME_PATH,
+                executablePath: process.env.CHROME_PATH || path.resolve('C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'),
                 ignoreDefaultArgs: ["--disable-extensions", "--enable-automation"],
                 args: [
                     '--no-sandbox',
