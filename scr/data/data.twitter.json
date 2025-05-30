@@ -1,0 +1,127 @@
+[
+  {
+    "profile": "__Profile _1",
+    "twitter": {
+      "user": "demo_user_1",
+      "auth2fa": "demo_auth2fa_1",
+      "backupcode": "demo_backupcode_1",
+      "cookies": [
+        {
+          "name": "auth_token",
+          "value": "demo_auth_token_1",
+          "domain": ".x.com",
+          "path": "/",
+          "expires": 1700000000,
+          "size": 50,
+          "httpOnly": true,
+          "secure": true,
+          "session": false,
+          "sameSite": "None",
+          "priority": "Medium",
+          "sameParty": false,
+          "sourceScheme": "Secure"
+        }
+      ]
+    }
+  },
+  {
+    "profile": "__Profile _2",
+    "twitter": {
+      "user": "demo_user_2",
+      "auth2fa": "demo_auth2fa_2",
+      "backupcode": "demo_backupcode_2",
+      "cookies": [
+        {
+          "name": "auth_token",
+          "value": "demo_auth_token_2",
+          "domain": ".x.com",
+          "path": "/",
+          "expires": 1700000000,
+          "size": 50,
+          "httpOnly": true,
+          "secure": true,
+          "session": false,
+          "sameSite": "None",
+          "priority": "Medium",
+          "sameParty": false,
+          "sourceScheme": "Secure"
+        }
+      ]
+    }
+  },
+  {
+    "profile": "__Profile _3",
+    "twitter": {
+      "user": "demo_user_3",
+      "auth2fa": "demo_auth2fa_3",
+      "backupcode": "demo_backupcode_3",
+      "cookies": [
+        {
+          "name": "auth_token",
+          "value": "demo_auth_token_3",
+          "domain": ".x.com",
+          "path": "/",
+          "expires": 1700000000,
+          "size": 50,
+          "httpOnly": true,
+          "secure": true,
+          "session": false,
+          "sameSite": "None",
+          "priority": "Medium",
+          "sameParty": false,
+          "sourceScheme": "Secure"
+        }
+      ]
+    }
+  },
+  {
+    "profile": "__Profile _4",
+    "twitter": {
+      "user": "demo_user_4",
+      "auth2fa": "demo_auth2fa_4",
+      "backupcode": "demo_backupcode_4",
+      "cookies": [
+        {
+          "name": "auth_token",
+          "value": "demo_auth_token_4",
+          "domain": ".x.com",
+          "path": "/",
+          "expires": 1700000000,
+          "size": 50,
+          "httpOnly": true,
+          "secure": true,
+          "session": false,
+          "sameSite": "None",
+          "priority": "Medium",
+          "sameParty": false,
+          "sourceScheme": "Secure"
+        }
+      ]
+    }
+  },
+  {
+    "profile": "__Profile _5",
+    "twitter": {
+      "user": "demo_user_5",
+      "auth2fa": "demo_auth2fa_5",
+      "backupcode": "demo_backupcode_5",
+      "cookies": [
+        {
+          "name": "auth_token",
+          "value": "demo_auth_token_5",
+          "domain": ".x.com",
+          "path": "/",
+          "expires": 1700000000,
+          "size": 50,
+          "httpOnly": true,
+          "secure": true,
+          "session": false,
+          "sameSite": "None",
+          "priority": "Medium",
+          "sameParty": false,
+          "sourceScheme": "Secure"
+        }
+      ]
+    }
+  }
+]

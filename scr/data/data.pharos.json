@@ -1,0 +1,42 @@
+[
+  {
+    "profile": "__Profile _1",
+    "pharos": {
+      "mnemonic": "demo mnemonic 1",
+      "private_key": "demo_private_key_1",
+      "address": "0xDemoAddress1"
+    }
+  },
+  {
+    "profile": "__Profile _2",
+    "pharos": {
+      "mnemonic": "demo mnemonic 2",
+      "private_key": "demo_private_key_2",
+      "address": "0xDemoAddress2"
+    }
+  },
+  {
+    "profile": "__Profile _3",
+    "pharos": {
+      "mnemonic": "demo mnemonic 3",
+      "private_key": "demo_private_key_3",
+      "address": "0xDemoAddress3"
+    }
+  },
+  {
+    "profile": "__Profile _4",
+    "pharos": {
+      "mnemonic": "demo mnemonic 4",
+      "private_key": "demo_private_key_4",
+      "address": "0xDemoAddress4"
+    }
+  },
+  {
+    "profile": "__Profile _5",
+    "pharos": {
+      "mnemonic": "demo mnemonic 5",
+      "private_key": "demo_private_key_5",
+      "address": "0xDemoAddress5"
+    }
+  }
+]

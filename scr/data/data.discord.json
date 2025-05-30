@@ -1,0 +1,52 @@
+[
+  {
+    "profile": "__Profile _1",
+    "discord": {
+      "email": "demo1@gmail.com",
+      "token_discord": "demo_token_1",
+      "pass": "demo_pass_1",
+      "auth2fa": "demo_auth2fa_1",
+      "readmail": null
+    }
+  },
+  {
+    "profile": "__Profile _2",
+    "discord": {
+      "email": "demo2@gmail.com",
+      "token_discord": "demo_token_2",
+      "pass": "demo_pass_2",
+      "auth2fa": "demo_auth2fa_2",
+      "readmail": null
+    }
+  },
+  {
+    "profile": "__Profile _3",
+    "discord": {
+      "email": "demo3@gmail.com",
+      "token_discord": "demo_token_3",
+      "pass": "demo_pass_3",
+      "auth2fa": "demo_auth2fa_3",
+      "readmail": null
+    }
+  },
+  {
+    "profile": "__Profile _4",
+    "discord": {
+      "email": "demo4@gmail.com",
+      "token_discord": "demo_token_4",
+      "pass": "demo_pass_4",
+      "auth2fa": "demo_auth2fa_4",
+      "readmail": null
+    }
+  },
+  {
+    "profile": "__Profile _5",
+    "discord": {
+      "email": "demo5@gmail.com",
+      "token_discord": "demo_token_5",
+      "pass": "demo_pass_5",
+      "auth2fa": "demo_auth2fa_5",
+      "readmail": null
+    }
+  }
+]

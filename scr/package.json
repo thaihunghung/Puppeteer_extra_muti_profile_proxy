@@ -1,0 +1,33 @@
+{
+  "name": "puppeteer_auto_metamask_proxys",
+  "version": "1.0.0",
+  "description": "air-metamask",
+  "main": "app.js",
+  "scripts": {
+    "start": "node scr/app.js",
+    "test": "node scr/test/app.js",
+    "fomat_proxy": "node scr/modules/proxy/proxy.js"
+  },
+  "author": "Trần Thái Hưng",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.14.1",
+    "https": "^1.0.0",
+    "https-proxy-agent": "^7.0.5",
+    "proxy-chain": "^2.5.5",
+    "proxy-check": "^1.0.8",
+    "puppeteer": "^23.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-page-proxy": "^1.3.0",
+    "tough-cookie": "^5.1.2",
+    "tweetnacl": "^1.0.3",
+    "worker-thread": "^1.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
