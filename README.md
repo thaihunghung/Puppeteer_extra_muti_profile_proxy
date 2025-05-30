@@ -26,6 +26,7 @@
 git clone https://github.com/thaihunghung/Puppeteer_extra_muti_profile_proxy.git
 cd Puppeteer_extra_muti_profile_proxy scr
 npm install
+node app.js
 ```
 
 ### 2. Quy trình hoạt động
