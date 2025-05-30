@@ -1,11 +1,2 @@
 node_modules/
-chrome/
-profile/
 img/
-extensions/
-scr/wallet.xlsx
-scr/data.json
-scr/.env
-
-scr/data.wallet.json
-scr/data.proxy.json

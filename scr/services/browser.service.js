@@ -2,6 +2,7 @@ const globalState = require("../config/globalState");
 const { fs, proxyChain,
     puppeteer
 } = require("../config/module.import");
+require('dotenv').config(); 
 const path = require('path');
 
 class BrowserService {
@@ -47,7 +48,7 @@ class BrowserService {
             BrowserService.browser = await puppeteer.launch({
              //   devtools: devtool,
                 headless: headless ? true : false, 
-                executablePath: path.resolve('C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'),
+                executablePath: process.env.CHROME_PATH,
                 userDataDir, 
                 ignoreDefaultArgs: ['--disable-extensions', '--enable-automation'],
                 args: [
@@ -104,7 +105,7 @@ class BrowserService {
             BrowserService.browser = await puppeteer.launch({
                 devtools: devtool,
                 headless: headless,
-                executablePath: path.resolve(__dirname, '..', '..', 'chrome', 'win64-116.0.5793.0', 'chrome-win64', 'chrome.exe'),
+                executablePath: process.env.CHROME_PATH,
                 ignoreDefaultArgs: ["--disable-extensions", "--enable-automation"],
                 args: [
                     '--no-sandbox',
