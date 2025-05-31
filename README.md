@@ -55,3 +55,21 @@ node app.js
 3. **Thực hiện nhiệm vụ** (ví dụ: đăng nhập, thao tác web, lấy dữ liệu...).
 4. **Theo dõi trạng thái**: Nếu trình duyệt bị đóng hoặc hoàn thành nhiệm vụ, gửi thông báo về app chính.
 5. **Đóng trình duyệt** nếu được yêu cầu hoặc khi kết thúc.
+
+## Chú ý:
+## 🧩 Nếu chưa tải Chrome
+
+Trong thư mục `Puppeteer_extra_muti_profile_proxy`, chạy lệnh sau để tải Chrome phiên bản `116.0.5793.0`:
+
+```bash
+npx @puppeteer/browsers install chrome@116.0.5793.0
+
+```
+Sau đó thay đổi env trong scr/.env
+
+```bash
+CHROME_PATH = .\\chrome\\win64-116.0.5793.0\\chrome-win64\\chrome.exe
+
+```
+
+
